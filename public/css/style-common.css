@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Axiforma";
+}
+.theme-btn {
+  background: linear-gradient(144.82deg, #8dc33f 14.13%, #00a7a7 86.38%);
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: inherit;
+  letter-spacing: 0.5px;
+  height: 44px;
+  border-radius: 60px;
+}
+
+.theme-btn.dropdown-toggle:after {
+  margin-left: 10px;
+}
+
+
+
+
+.input-group .btn {
+  background: #1a111d;
+  box-shadow: none;
+  padding: 0;
+  height: 38px;
+  border-radius: 16px !important;
+  width: 108px;
+  margin-top: 6px;
+  border: 0.5px solid #484848;
+  color: white;
+  position: relative;
+  z-index: 1;
+}
+.input-group input {
+  opacity: 0.5;
+  border: 0.5px solid #484848;
+  border-radius: 16px !important;
+  height: 50px !important;
+  margin-left: -113px !important;
+  padding-left: 125px;
+}
+.input-group input:focus {
+  background: none;
+  border: none;
+  outline: 0;
+  opacity: 1;
+}
+.input-group .dropdown-menu {
+  max-width: 20%;
+}
+.dropdown-menu li a:hover {
+  background: linear-gradient(144.82deg, #8dc33f 14.13%, #00a7a7 86.38%);
+}
+.swap-form .swipe-btn {
+  margin-top: -3px;
+  margin-bottom: -3px;
+  z-index: 1;
+}
+.swipe-btn:hover {
+  opacity: 0.5;
+}
+.input-heading {
+  font-size: 14px;
+}
+.limit-form .swipe-btn {
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+.form-desc h1 {
+  font-family: "Righteous";
+  font-size: 36px;
+  line-height: 48px;
+  color: white;
+}
+.form-desc p {
+  font-size: 13px;
+  color: #dfdfdf;
+}
+.red {
+  color: red;
+}
+.green {
+  color: #8dc33f;
+}
+
+@media (min-width: 769px) {
+  .uniswap .swapper {
+    min-width: 532px;
+  }
+}
