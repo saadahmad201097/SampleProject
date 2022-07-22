@@ -60,7 +60,7 @@ function Home(props) {
         return;
       }
 
-      if (file[0].size > 1048576) {
+      if (file[0].size > 10485760) {
         showToast("File size must not be greater then 10mb");
         return;
       }
@@ -102,9 +102,9 @@ function Home(props) {
           .call();
         setLoaderFor("");
         if (verifyResponse === false) {
-          showToast("This file has not been uploaded yet.");
+          showToast("File verification failed. This file has not been found.");
         } else if (verifyResponse === true) {
-          showToast("This file has been uploaded.", "success");
+          showToast("File verification successful. This file is already uploaded and unchanged.", "success");
         }
       } else {
         setLoaderFor("");
